@@ -1,0 +1,32 @@
+.wishlist-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 15px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.wishlist-btn:hover {
+  border-color: #ff69b4;
+  color: #ff69b4;
+}
+
+.wishlist-btn.wishlisted {
+  background-color: #fff5f8;
+  border-color: #ff69b4;
+  color: #ff69b4;
+}
+
+.heart-icon {
+  font-size: 18px;
+}
+
+.wishlist-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

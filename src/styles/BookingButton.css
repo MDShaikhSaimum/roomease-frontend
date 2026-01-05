@@ -1,0 +1,43 @@
+.booking-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.booking-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.booking-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.booking-btn.booked {
+  background-color: #FF9800;
+}
+
+.booking-btn.booked:hover {
+  background-color: #FF9800;
+  transform: none;
+}
+
+.booking-btn.disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.booking-btn.disabled:hover {
+  background-color: #6c757d;
+  transform: none;
+}
+

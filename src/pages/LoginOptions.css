@@ -1,0 +1,154 @@
+.login-options-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.login-options-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  padding: 3rem 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-options-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.login-options-subtitle {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.login-types {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.login-type-btn {
+  padding: 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: #f5f5f5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: inherit;
+}
+
+.login-type-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.landlord-btn {
+  border-color: #667eea;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.05) 100%);
+}
+
+.landlord-btn:hover {
+  border-color: #667eea;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.1) 100%);
+}
+
+.user-btn {
+  border-color: #4CAF50;
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.1) 0%, rgba(56, 142, 60, 0.05) 100%);
+}
+
+.user-btn:hover {
+  border-color: #4CAF50;
+  background: linear-gradient(135deg, rgba(76, 175, 80, 0.2) 0%, rgba(56, 142, 60, 0.1) 100%);
+}
+
+.admin-btn {
+  border-color: #FF6B6B;
+  background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(220, 53, 69, 0.05) 100%);
+}
+
+.admin-btn:hover {
+  border-color: #FF6B6B;
+  background: linear-gradient(135deg, rgba(255, 107, 107, 0.2) 0%, rgba(220, 53, 69, 0.1) 100%);
+}
+
+.btn-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.btn-description {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+.signup-section {
+  border-top: 1px solid #eee;
+  padding-top: 1.5rem;
+}
+
+.signup-section p {
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.signup-link-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.signup-link-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(102, 126, 234, 0.4);
+}
+
+@media (max-width: 480px) {
+  .login-options-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .login-options-title {
+    font-size: 2rem;
+  }
+
+  .login-options-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .btn-icon {
+    font-size: 1.5rem;
+  }
+
+  .btn-label {
+    font-size: 1rem;
+  }
+}
